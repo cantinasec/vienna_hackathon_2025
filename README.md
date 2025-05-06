@@ -18,7 +18,7 @@ This repository contains the code for all the dev track challenges.
 
 ## 🎮 How to Play
 
-1. All challenges must be solved on-chain. Every solve will be accounted for in the `Pot.sol` contract.
+1. All challenges must be solved on-chain. So ensure you've some S tokens ready before starting. Every solve will be accounted for in the `Pot.sol` contract and the solves should be made as an on-chain transaction.
 2. Once you've solved all challenges (reaching 200 points), submit your solution in cantina.
    - For submission to cantina, please use the [Submission template](./TEMPLATE_SUBMISSION.md).
    - Link for submission: https://cantina.xyz/competitions/ae21d78b-f752-4a9e-aad9-9d89f2b4b8b5
