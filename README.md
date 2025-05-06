@@ -86,4 +86,4 @@ Solve all challenges to earn > 15,000 S tokens and demonstrate your hacking skil
 ## 🔗 Links
 
 - Documentation: [Click Here](https://jailbreak.soniclabs.com/docs)
-- Hackathon Website: [Click Here](https://testhackathon.soniclabs.com/devs)
+- Hackathon Website: [Click Here](https://jailbreak.soniclabs.com/devs)
