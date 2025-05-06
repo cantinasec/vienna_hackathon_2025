@@ -54,30 +54,6 @@ sequenceDiagram
     Pot->>Pot: emit WinClaimed
 ```
 
-### Prompt Submission Flow
-
-```mermaid
-sequenceDiagram
-    participant Player
-    participant Pot
-    participant Owner
-
-    Player->>+Pot: submitPrompt(prompt) with ETH value
-    Pot->>Pot: Calculate cost with 5% increase
-    
-    alt Insufficient Value
-        Pot-->>Player: Revert transaction
-    else Sufficient Value
-        Pot->>Owner: Transfer payment
-        
-        alt Excess Value
-            Pot->>Player: Refund excess ETH
-        end
-        
-        Pot->>Pot: Update baseCost & totalCollected
-        Pot-->>-Player: emit Prompt
-    end
-```
 
 ## 🏆 Rewards
 
